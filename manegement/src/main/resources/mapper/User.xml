@@ -1,0 +1,31 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.example.manegement.mapper.UserMapper">-->
+
+<!--    <update id="update" parameterType="int">-->
+<!--        update `list`-->
+<!--        <set>-->
+<!--            <if test="name != null">-->
+<!--            name = #{name},-->
+<!--            </if>-->
+<!--            <if test="Birth != null">-->
+<!--            Birth = #{Birth},-->
+<!--            </if>-->
+<!--            <if test="email != null">-->
+<!--            email = #{email},-->
+<!--            </if>-->
+<!--            <if test="tel != null">-->
+<!--            tel = #{tel},-->
+<!--            </if>-->
+<!--            <if test="address != null">-->
+<!--            address = #{address},-->
+<!--            </if>-->
+<!--            <if test="ocupation != null">-->
+<!--            ocupation = #{ocupation}-->
+<!--            </if>-->
+<!--        </set>-->
+<!--        where id = #{id}-->
+<!--    </update>-->
+
+<!--</mapper>-->
